@@ -1,9 +1,7 @@
 #bento-box {
-    height: 0px;
-    width: 0px;
 	display: grid;
-    /* grid-template-columns: repeat(4, auto); */
-    /* grid-template-rows: repeat(5, auto); */
+    grid-template-columns: 111px 185px 100px;
+    grid-template-rows: 78px 102px 200px 120px;
     /* grid-auto-columns:   minmax(400px, auto); */
 	/* grid-auto-rows: minmax(400px, auto) */
 	grid-template-areas: 
