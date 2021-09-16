@@ -1,14 +1,14 @@
 #bento-box {
+	height: 463px;
+	width: 413px;
 	display: grid;
-    grid-template-columns: 111px 185px 100px;
-    grid-template-rows: 78px 102px 200px 120px;
-    /* grid-auto-columns:   minmax(400px, auto); */
-	/* grid-auto-rows: minmax(400px, auto) */
-	grid-template-areas: 
-    "fish-flag fish-flag vase-short"
-    "map map vase-short"
-    "vase-tall bamboo bamboo"
-    "vase-tall quadropus quadropus";
+	grid-template-columns: 27.3% 43.8%;
+	grid-template-rows: 17% 22.15% 43.3%;
+	grid-template-areas:
+		"fish-flag fish-flag vase-short"
+		"map map vase-short"
+		"vase-tall bamboo bamboo"
+		"vase-tall quadropus quadropus";
 }
 
 #fish-flag {
@@ -17,7 +17,7 @@
 
 #map {
 	grid-area: map;
-} 
+}
 
 #vase-short {
 	grid-area: vase-short;
@@ -25,7 +25,7 @@
 
 #vase-tall {
 	grid-area: vase-tall;
-} 
+}
 
 #bamboo {
 	grid-area: bamboo;
@@ -33,4 +33,4 @@
 
 #quadropus {
 	grid-area: quadropus;
-} 
+}
