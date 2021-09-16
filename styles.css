@@ -3,7 +3,7 @@
 	width: 413px;
 	display: grid;
 	grid-template-columns: 27.3% 43.8%;
-	grid-template-rows: 17% 22.15% 43.3%;
+	grid-template-rows: 17% 22.1% 43.3%;
 	grid-template-areas:
 		"fish-flag fish-flag vase-short"
 		"map map vase-short"
